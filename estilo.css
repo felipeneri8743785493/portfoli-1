@@ -173,10 +173,11 @@ font-weight: bold;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: .3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 .sobremi .fila .col .contenedor-intereses .interes:hover{
     background-color: #42C920;
+    transform: scale(1.05);
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
