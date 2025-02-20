@@ -16,7 +16,7 @@ function seleccionar(){
     menuVisible = false;
 }
 //Funcion que aplica las animaciones de las habilidades
-function efectHabilidades(){
+function efectoHabilidades(){
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
