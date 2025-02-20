@@ -246,12 +246,12 @@ font-weight: bold;
 .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
-    background-color: #131517;
+    background-color:  #42C920;
     position: relative;
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color:  #42C920;
     position: absolute;
     top: 0;
     left: 0;
