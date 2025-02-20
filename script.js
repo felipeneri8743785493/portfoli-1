@@ -1,5 +1,5 @@
 let menuVisible = false;
-//Funcion que oculta o muestra el menu
+//Función que oculta o muestra el menu
 function mostrarOcultarMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
@@ -38,4 +38,4 @@ function efectoHabilidades(){
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
-}
+} 
