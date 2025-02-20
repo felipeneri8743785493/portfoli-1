@@ -335,6 +335,42 @@ No tengo ningún problema en aprender nuevas tecnologías o en participar en los
                        <input type="hidden" name="_captcha" value="false">
                     </form>
                 </div>
+<!-- pelota -->
+          <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            
+        }
+
+        .pelota {
+            position: absolute;
+            left: 80%; /* Centra la pelota horizontalmente */
+            top: -50px; /* Comienza fuera de la pantalla en la parte superior */
+            width: 50px; /* Tamaño de la pelota */
+            height: 50px; /* Tamaño de la pelota */
+            background-color: #42C920; /* Color de la pelota */
+            border-radius: 50%; /* Hace que la pelota sea redonda */
+            animation: moverPelota 3s linear infinite; /* Animación */
+            transform: translateX(-50%); /* Ajusta la pelota para que esté centrada */
+        }
+
+        @keyframes moverPelota {
+            0% {
+                top: -50px; /* Empieza fuera de la pantalla en la parte superior */
+            }
+            50% {
+                top: 100%; /* Se mueve hasta el 100% de la altura de la pantalla (fuera de la pantalla por abajo) */
+            }
+            100% {
+                top: -50px; /* Regresa al principio, fuera de la pantalla en la parte superior */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pelota"></div>
+</body>
                 
      <!-- footer -->
      <footer>
